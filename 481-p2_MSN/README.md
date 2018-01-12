@@ -2,7 +2,7 @@
 CPSC 481-04, Team SPN
 Steven Espin - sespin@csu.fullerton.edu
 Marc Jimenez - JimenezMW@csu.fullerton.edu
-Natalie Ang - midsummer_season@csua.fullerton.edu
+Natalie Ang - midsummer_season@csu.fullerton.edu
 
 # GP Arithmetic Expression Project
 

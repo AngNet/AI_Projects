@@ -24,10 +24,15 @@ This entire processes repeats for 50 generations. Throughout all these generatio
 
 To run the program, first download the lisp program called CamelCover.lisp. A Lisp implementation such as CLISP or Common Lisp is required for the code to run. Common Lisp is available on most operating systems. This project was run on linux. To download Common Lisp on linux through the terminal, type in the following: 
 
+```
 sudo apt-get install common lisp
+```
 
 Using either the terminal or the command line, type in “clisp” to start CLISP and a screen with an ascii clisp logo will show up. This is where you can load and build the lisp program. If you want to exit out of the CLISP environment, type the following:
+
+```
 (bye)
+```
 
 ### Instructions for Building and Usage
 
@@ -36,7 +41,9 @@ There are two main ways to build the program and then run it.
 
 2. Another option is to open up the terminal and go into the directory with the lisp program before going into the CLISP environment. (Note: If you don’t do this first, you will receive errors when building the program.) Enter the CLISP environment then type in:
 
+```
 (load “gp.lisp”) or (load “gp”)
+```
 
 This will load, build and start the program. (Note: When doing any lisp commands, you must include the parantheses or else the command won't work.)
 
@@ -46,7 +53,9 @@ This will load, build and start the program. (Note: When doing any lisp commands
 
 2. There is a helper function named set-xyz-goal that will allow the user to change the x y z and goal-value. If the user wanted x = 1, y = 2, z = 3 and the goal-value to be 4, type in:
 
+```
 (set-xyz-goal 1 2 3 4)
+```
 
 The next time the program runs, the new values for x, y, z, and goal will be set. This will change what will be considered "fit" for the expressions to make children.(Note: The default values are x = 0, y = -2, z = 1, and goal = -16. If you exit clisp then come back and run the gp program, the default values will be used)
 

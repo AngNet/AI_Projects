@@ -18,10 +18,15 @@ After 40 ants manage to reach the end, all the paths are analyzed to determine w
 
 To run the program, first download the lisp program called aco.lisp. A Lisp implementation such as CLISP or Common Lisp is required for the code to run. Common Lisp is available on most operating systems. This project was run on linux. To download Common Lisp on linux through the terminal, type in the following: 
 
+```
 sudo apt-get install common lisp
+```
 
 Using either the terminal or the command line, type in “clisp” to start CLISP and a screen with an ascii clisp logo will show up. This is where you can load and build the lisp program. If you want to exit out of the CLISP environment, type the following:
+
+```
 (bye)
+```
 
 ### Instructions for Building and Usage
 
@@ -30,7 +35,9 @@ There are two main ways to build the program and then run it.
 
 2. Another option is to open up the terminal and go into the directory with the lisp program before going into the CLISP environment. (Note: If you don’t do this first, you will receive errors when building the program.) Enter the CLISP environment then type in:
 
+```
 (load "aco.lisp”) or (load “aco”)
+```
 
 This will load, build and start the program. (Note: When doing any lisp commands, you must include the parentheses or else the command won't work.)
 
